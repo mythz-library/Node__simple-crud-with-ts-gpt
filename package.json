@@ -1,11 +1,11 @@
 {
   "name": "node__simple-crud-with-ts-gpt",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
-    "start": "tsc && node dist/server.js",
     "dev": "npm run format && ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
+    "start": "tsc && node dist/server.js",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
